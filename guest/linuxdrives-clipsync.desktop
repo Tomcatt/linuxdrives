@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=linuxdrives clipboard
+Comment=Shared clipboard with Windows while running in linuxdrives try mode (exits at once otherwise)
+Exec=sh -c 'exec "$HOME/.local/bin/clipsync.sh" guest'
+NoDisplay=true

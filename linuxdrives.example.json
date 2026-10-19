@@ -1,0 +1,18 @@
+{
+  "distro": "archlinux",
+  "stopServices": [],
+  "targets": {
+    "linux": {
+      "serials": [
+        "SERIAL-OF-DISK-1",
+        "SERIAL-OF-DISK-2"
+      ]
+    },
+    "test-md": {
+      "vhds": ["test\\md1.vhdx", "test\\md2.vhdx", "test\\md3.vhdx", "test\\md4.vhdx"]
+    },
+    "test-btrfs": {
+      "vhds": ["test\\bt1.vhdx", "test\\bt2.vhdx", "test\\bt3.vhdx", "test\\bt4.vhdx"]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# lets the desktop user open the try-mode VM's clipboard port (copy to /etc/udev/rules.d/)
+SUBSYSTEM=="virtio-ports", ATTR{name}=="org.linuxdrives.clipboard", TAG+="uaccess"
